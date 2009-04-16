@@ -6,14 +6,14 @@ module DumbQuotes
       attributes.each do |attr, value|
         if value.respond_to?(:gsub)
           # single quotes
-          value.gsub!("\xE2\x80\x98","'") # U+2018
-          value.gsub!("\xE2\x80\x99","'") # U+2019
-          value.gsub!("\xCA\xBC","'")     # U+02BC
+          value = value.gsub("\xE2\x80\x98","'") # U+2018
+          value = value.gsub("\xE2\x80\x99","'") # U+2019
+          value = value.gsub("\xCA\xBC","'")     # U+02BC
 
           #  double quotes
-          value.gsub!("\xE2\x80\x9C",'"') # U+201C
-          value.gsub!("\xE2\x80\x9D",'"') # U+201D
-          value.gsub!("\xCB\xAE",'"')     # U+02EE
+          value = value.gsub("\xE2\x80\x9C",'"') # U+201C
+          value = value.gsub("\xE2\x80\x9D",'"') # U+201D
+          value = value.gsub("\xCB\xAE",'"')     # U+02EE
 
           record[attr] = value
         end
