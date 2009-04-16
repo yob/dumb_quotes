@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.rdoc_options      << "--title" << "Dumb Quotes" << "--line-numbers"
   s.rubyforge_project = "yob-projects"
   s.test_files        = [ "test/dumb_quotes_test.rb", "test/test_helper.rb" ]
-  s.files             = [ "init.rb", "rails/init.rb", "lib/dumb_quotes.rb", "Rakefile", "MIT-LICENSE", "README.markdown" ]
+  s.files             = [ "init.rb", "rails/init.rb", "lib/dumb_quotes.rb", "Rakefile", "MIT-LICENSE", "README.rdoc" ]
 end
