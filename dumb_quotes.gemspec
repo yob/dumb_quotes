@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
   s.name              = "dumb_quotes"
   s.version           = "1.0"
-  s.summary           = "a small ActiveRecord plugin that converts 'smart quotes' to their ASCII equivilants"
-  s.description       = "a small ActiveRecord plugin that converts 'smart quotes' to their ASCII equivilants"
+  s.summary           = "a small ActiveRecord plugin that converts 'smart quotes' to their ASCII equivalents"
+  s.description       = "a small ActiveRecord plugin that converts 'smart quotes' to their ASCII equivalents"
   s.author            = "James Healy"
   s.email             = "james@yob.id.au"
   s.homepage          = "http://github.com/yob/dumb_quotes/tree/master"
