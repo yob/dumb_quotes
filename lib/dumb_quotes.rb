@@ -1,3 +1,5 @@
+# coding: utf-8
+
 module DumbQuotes
   # Strips whitespace from model fields and converts blank values to nil.
   def dumb_quotes!(options = nil)
