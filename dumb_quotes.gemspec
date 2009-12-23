@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name              = "dumb_quotes"
-  s.version           = "1.0"
+  s.version           = "1.1"
   s.summary           = "a small ActiveRecord plugin that converts 'smart quotes' to their ASCII equivalents"
   s.description       = "a small ActiveRecord plugin that converts 'smart quotes' to their ASCII equivalents"
   s.author            = "James Healy"
