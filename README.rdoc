@@ -32,14 +32,19 @@ the following changes to your model attributes before validation:
 
 === Installation
 
-Option 1. Load the plugin as a gem
+1. On rails 2.3
 
-  gem install dumb_quotes
-  add "config.gem 'dumb_quotes'" to your environment.rb
+  * gem install strip_control_chars
+  * add the following to your environment.rb
 
-Option 2. Use the standard Rails plugin install (assuming Rails 2.1).
+    config.gem 'dumb_quotes', version => < 2.0"
 
-  ./script/plugin install git://github.com/yob/dumb_quotes.git
+2. On rails 3
+
+  * gem install strip_control_chars
+  * add the following to your Gemfile
+
+    gem 'dumb_quotes', ">=2.0"
 
 === Caveats
 
