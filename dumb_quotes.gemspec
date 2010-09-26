@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.rdoc_options      << "--title" << "Dumb Quotes" << "--line-numbers"
   s.test_files        = [ "test/dumb_quotes_test.rb", "test/test_helper.rb" ]
   s.files             = [ "lib/dumb_quotes.rb", "lib/dumb_quotes/ar_extend.rb", "lib/dumb_quotes/railtie.rb", "Rakefile", "MIT-LICENSE", "README.rdoc" ]
-  s.add_dependency("activerecord", ">= 3.0.0.rc")
+  s.add_dependency("activerecord", ">= 3.0.0")
 end
